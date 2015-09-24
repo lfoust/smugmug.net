@@ -1,0 +1,288 @@
+{
+    "Request": {
+        "Version": "v2",
+        "Method": "GET",
+        "Uri": "/api/v2/user/foustfamily"
+    },
+    "Options": {
+        "MediaTypes": [
+            "application/json",
+            "application/vnd.php.serialized",
+            "application/x-msgpack",
+            "text/html",
+            "text/csv"
+        ],
+        "MethodDetails": {
+            "OPTIONS": {
+                "Permissions": [
+                    "Read"
+                ]
+            },
+            "GET": {
+                "Permissions": [
+                    "Read"
+                ]
+            }
+        },
+        "Methods": [
+            "OPTIONS",
+            "GET"
+        ],
+        "Output": [
+            {
+                "Name": "AccountStatus",
+                "Type": "Select",
+                "OPTIONS": [
+                    "Active",
+                    "PastDue",
+                    "Suspended",
+                    "Closed"
+                ],
+                "MIN_COUNT": 1,
+                "MAX_COUNT": 1
+            },
+            {
+                "Name": "FirstName",
+                "Type": "Varchar",
+                "MIN_CHARS": 0,
+                "MAX_CHARS": 20
+            },
+            {
+                "Name": "FriendsView",
+                "Type": "Boolean"
+            },
+            {
+                "Name": "ImageCount",
+                "Type": "Integer",
+                "MIN_VALUE": 0,
+                "MAX_VALUE": 16777215
+            },
+            {
+                "Name": "IsTrial",
+                "Type": "Boolean"
+            },
+            {
+                "Name": "LastName",
+                "Type": "Varchar",
+                "MIN_CHARS": 0,
+                "MAX_CHARS": 20
+            },
+            {
+                "Name": "NickName",
+                "Type": "Varchar",
+                "MIN_CHARS": 0,
+                "MAX_CHARS": 25
+            },
+            {
+                "Name": "SortBy",
+                "Type": "Select",
+                "OPTIONS": [
+                    "LastUpdated",
+                    "Position"
+                ],
+                "MIN_COUNT": 1,
+                "MAX_COUNT": 1
+            },
+            {
+                "Name": "ViewPassHint",
+                "Type": "Varchar",
+                "MIN_CHARS": 0,
+                "MAX_CHARS": 255
+            },
+            {
+                "Name": "ViewPassword",
+                "Type": "Varchar",
+                "MIN_CHARS": 0,
+                "MAX_CHARS": 50
+            },
+            {
+                "Name": "Domain",
+                "Type": "Varchar",
+                "MIN_CHARS": 0,
+                "MAX_CHARS": 50
+            },
+            {
+                "Name": "DomainOnly",
+                "Type": "Varchar",
+                "MIN_CHARS": 0,
+                "MAX_CHARS": 50
+            },
+            {
+                "Name": "RefTag",
+                "Type": "Varchar",
+                "MIN_CHARS": 0,
+                "MAX_CHARS": 13
+            },
+            {
+                "Name": "Name",
+                "Type": "Varchar",
+                "MIN_CHARS": 0,
+                "MAX_CHARS": "INFINITY"
+            },
+            {
+                "Name": "Plan",
+                "Type": "Varchar",
+                "MIN_CHARS": 0,
+                "MAX_CHARS": "INFINITY"
+            },
+            {
+                "Name": "TotalAccountSize",
+                "Type": "Varchar",
+                "MIN_CHARS": 0,
+                "MAX_CHARS": "INFINITY"
+            },
+            {
+                "Name": "TotalUploadedSize",
+                "Type": "Varchar",
+                "MIN_CHARS": 0,
+                "MAX_CHARS": "INFINITY"
+            }
+        ],
+        "ResponseLevels": [
+            "Full",
+            "Public",
+            "Password",
+            "GrantAccess"
+        ],
+        "Path": [
+            {
+                "type": "path",
+                "text": "api"
+            },
+            {
+                "type": "path",
+                "text": "v2"
+            },
+            {
+                "type": "path",
+                "text": "user"
+            },
+            {
+                "type": "singleparam",
+                "param_name": "nickname",
+                "param_value": "foustfamily"
+            }
+        ]
+    },
+    "Response": {
+        "Uri": "/api/v2/user/foustfamily",
+        "UriDescription": "User By Nickname",
+        "EndpointType": "User",
+        "Locator": "User",
+        "LocatorType": "Object",
+        "ResponseLevel": "Public",
+        "DocUri": "https://api.smugmug.com/api/v2/doc/reference/user.html",
+        "User": {
+            "ResponseLevel": "Public",
+            "Uri": "/api/v2/user/foustfamily",
+            "WebUri": "https://foustfamily.smugmug.com",
+            "UriDescription": "User By Nickname",
+            "NickName": "foustfamily",
+            "ViewPassHint": "",
+            "RefTag": "6UKIzBpmqmW9Q",
+            "Name": "Luke Foust",
+            "Uris": {
+                "BioImage": {
+                    "Uri": "/api/v2/user/foustfamily!bioimage",
+                    "UriDescription": "User BioImage",
+                    "EndpointType": "BioImage",
+                    "Locator": "BioImage",
+                    "LocatorType": "Object"
+                },
+                "CoverImage": {
+                    "Uri": "/api/v2/user/foustfamily!coverimage",
+                    "UriDescription": "User CoverImage",
+                    "EndpointType": "CoverImage",
+                    "Locator": "CoverImage",
+                    "LocatorType": "Object"
+                },
+                "UserProfile": {
+                    "Uri": "/api/v2/user/foustfamily!profile",
+                    "UriDescription": "User's profile information",
+                    "EndpointType": "UserProfile",
+                    "Locator": "UserProfile",
+                    "LocatorType": "Object"
+                },
+                "Node": {
+                    "Uri": "/api/v2/node/zNFsw",
+                    "UriDescription": "Node with the given id.",
+                    "EndpointType": "Node",
+                    "Locator": "Node",
+                    "LocatorType": "Object"
+                },
+                "Folder": {
+                    "Uri": "/api/v2/folder/user/foustfamily",
+                    "UriDescription": "A folder or legacy (sub)category by UrlPath",
+                    "EndpointType": "Folder",
+                    "Locator": "Folder",
+                    "LocatorType": "Object"
+                },
+                "UserAlbums": {
+                    "Uri": "/api/v2/user/foustfamily!albums",
+                    "UriDescription": "All of user's albums",
+                    "EndpointType": "UserAlbums",
+                    "Locator": "Album",
+                    "LocatorType": "Objects"
+                },
+                "UserGeoMedia": {
+                    "Uri": "/api/v2/user/foustfamily!geomedia",
+                    "UriDescription": "Geotagged images for user",
+                    "EndpointType": "UserGeoMedia",
+                    "Locator": "Image",
+                    "LocatorType": "Objects"
+                },
+                "UserPopularMedia": {
+                    "Uri": "/api/v2/user/foustfamily!popularmedia",
+                    "UriDescription": "User's popular images",
+                    "EndpointType": "UserPopularMedia",
+                    "Locator": "Image",
+                    "LocatorType": "Objects"
+                },
+                "UserFeaturedAlbums": {
+                    "Uri": "/api/v2/user/foustfamily!featuredalbums",
+                    "UriDescription": "User's featured albums",
+                    "EndpointType": "UserFeaturedAlbums",
+                    "Locator": "Album",
+                    "LocatorType": "Objects"
+                },
+                "UserRecentImages": {
+                    "Uri": "/api/v2/user/foustfamily!recentimages",
+                    "UriDescription": "User's recent images",
+                    "EndpointType": "UserRecentImages",
+                    "Locator": "Image",
+                    "LocatorType": "Objects"
+                },
+                "UserImageSearch": {
+                    "Uri": "/api/v2/user/foustfamily!imagesearch",
+                    "UriDescription": "Search for user images",
+                    "EndpointType": "UserImageSearch",
+                    "Locator": "Image",
+                    "LocatorType": "Objects"
+                },
+                "UserTopKeywords": {
+                    "Uri": "/api/v2/user/foustfamily!topkeywords",
+                    "UriDescription": "User's top keywords",
+                    "EndpointType": "UserTopKeywords",
+                    "Locator": "UserTopKeywords",
+                    "LocatorType": "Object"
+                },
+                "UrlPathLookup": {
+                    "Uri": "/api/v2/user/foustfamily!urlpathlookup",
+                    "UriDescription": "Lookup user's folder, album, or page by path",
+                    "EndpointType": "UrlPathLookup",
+                    "Locator": "Folder,Album,Page",
+                    "LocatorType": "Object"
+                }
+            }
+        },
+        "Timing": {
+            "Total": {
+                "time": 0.03185,
+                "cycles": 1,
+                "objects": 0
+            }
+        }
+    },
+    "Code": 200,
+    "Message": "Ok"
+}

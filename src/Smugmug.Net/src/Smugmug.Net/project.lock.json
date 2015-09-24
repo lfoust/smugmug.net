@@ -146,6 +146,15 @@
           "lib/portable-net45+win8/System.Net.Http.Primitives.dll": {}
         }
       },
+      "Newtonsoft.Json/6.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.Collections/4.0.10": {
         "type": "package",
         "dependencies": {
@@ -692,6 +701,30 @@
         "Microsoft.Net.Http.nuspec"
       ]
     },
+    "Newtonsoft.Json/6.0.6": {
+      "type": "package",
+      "sha512": "w26uZNyCG5VeoKiEOJ4+9/o8koSofLKwHl7WLreIcp0U6r57L7WiRXmjp8MTKFw6dYNZ9AE0lw69WYbIhUsU9Q==",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netcore45/Newtonsoft.Json.dll",
+        "lib/netcore45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.xml",
+        "Newtonsoft.Json.6.0.6.nupkg",
+        "Newtonsoft.Json.6.0.6.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
     "System.Collections/4.0.10": {
       "type": "package",
       "serviceable": true,
@@ -728,7 +761,7 @@
     },
     "System.ComponentModel/4.0.0-beta-23019": {
       "type": "package",
-      "sha512": "ut79bWM/pYNWBhmazpg4noy6FizukKFIYwJ5LHLaT0oER281vIzCb8uJFF/yZC72g0zmB9sYexaWZSun1TfGPQ==",
+      "sha512": "uli7IAdLNzk+gYag3rV9MTQug25rSmxvystTdvD0R0Wvpo9YPDFza0XNblqiPDhyx9u9AASL5tIEcMDJop8nFQ==",
       "files": [
         "lib/dotnet/System.ComponentModel.dll",
         "lib/net45/_._",
@@ -860,7 +893,7 @@
     },
     "System.IO/4.0.10-beta-23019": {
       "type": "package",
-      "sha512": "/FgcleTGRMbI9XXlZCNNyNCLb+DzLXdyw2KqF1U0Su+Z8ztLBgpXGI9Vv1adnqRXXolBPNSlnHBMNEGqZzMYvA==",
+      "sha512": "7/aErp7PZ6C30YbT997YFFJzGSzrb+GA1JWpHH4GWPVEhZT7w9l10mAhdgp9btTQtpGYHAEo+2KIKAz0UnTACQ==",
       "files": [
         "lib/DNXCore50/System.IO.dll",
         "lib/net46/_._",
@@ -875,7 +908,7 @@
     },
     "System.IO.FileSystem/4.0.0-beta-23019": {
       "type": "package",
-      "sha512": "esYHMwzj2CoZGYMx0jDEai2pmaYsdIluz+pL9m8sPpdZhQQ8L7+MrOKrV272Sf6xaD7AUslNQsbrJBzEJxAhaA==",
+      "sha512": "5IcxmjfWAJd+/ApnqVxG9DGSGAkw8qeZinbJ6jmbQK+hIUp7sDxhlwgN4AmQHh7q4pKATM1uSFXpm4rlbFsqUA==",
       "files": [
         "lib/DNXCore50/System.IO.FileSystem.dll",
         "lib/net46/System.IO.FileSystem.dll",
@@ -889,7 +922,7 @@
     },
     "System.IO.FileSystem.Primitives/4.0.0-beta-23019": {
       "type": "package",
-      "sha512": "wGjn8X4EAnKEH4+uZ3CjiUCHW9WoXuWFNrzORmMhzvHpmxJUsiZkjvKhXGakclVlqMI+T4yn+MDwbrpC3TGofQ==",
+      "sha512": "XwoRwTvCrfCvNg1rIwfEZvKk0zqIaqP5F3+LFvKbCMzZtRBh5EUtd+oFk40XhfVytweJxMsrT/n8VaDOHqxvrQ==",
       "files": [
         "lib/dotnet/System.IO.FileSystem.Primitives.dll",
         "lib/net46/System.IO.FileSystem.Primitives.dll",
@@ -935,7 +968,7 @@
     },
     "System.Linq.Expressions/4.0.10-beta-23019": {
       "type": "package",
-      "sha512": "YjnsUzXsXx8BdqaXQ2U/hrz4CWdlAfcoYccqO3BSKCpPZPFEbKizEiHR9KJGcqf9gQ4lzRkhlM3xiMIjX27mUQ==",
+      "sha512": "UQC+34u2Kr45m3XcQRFyd0o0c7kT/s3MtpvwxWtPDphyEzS5e12Br3kuHBWKV6dEykHoPPPjGYA3zP8OObERaQ==",
       "files": [
         "lib/DNXCore50/System.Linq.Expressions.dll",
         "lib/net46/_._",
@@ -1288,7 +1321,7 @@
     },
     "System.Text.Encoding/4.0.0-beta-23019": {
       "type": "package",
-      "sha512": "3AKmu2GxeVRk3wrBLoZXN3EhMeToZpV9KB/fjOCJu3TXZGwT3x/GwXMK9S3giYFLppHABDuVSBM1X7/71ujf4Q==",
+      "sha512": "R0NRM2gKMZB9PK0cco97rYxP1spnrb7ofU4kBv50idLmiCvSepHWww172+x7DulgeiVeta5tkkKFqGsYaCJiBA==",
       "files": [
         "lib/net45/_._",
         "lib/win8/_._",
@@ -1393,7 +1426,8 @@
       "System.Runtime >= 4.0.20",
       "Microsoft.CSharp >= 4.0.0",
       "Microsoft.Net.Http >= 2.2.29",
-      "Microsoft.Framework.OptionsModel >= 1.0.0-beta5"
+      "Microsoft.Framework.OptionsModel >= 1.0.0-beta5",
+      "Newtonsoft.Json >= 6.0.6"
     ],
     ".NETPlatform,Version=v5.0": []
   }
