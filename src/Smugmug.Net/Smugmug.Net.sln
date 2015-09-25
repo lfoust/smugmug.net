@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Smugmug.Net", "src\Smugmug.Net\Smugmug.Net.xproj", "{F1FCF91D-9F0E-4437-95EA-EFFF45E5AFBD}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Smugmug.TestConsole", "src\Smugmug.TestConsole\Smugmug.TestConsole.xproj", "{F3645ADF-79D6-46B2-947B-8F6EE13A7254}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{F1FCF91D-9F0E-4437-95EA-EFFF45E5AFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1FCF91D-9F0E-4437-95EA-EFFF45E5AFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1FCF91D-9F0E-4437-95EA-EFFF45E5AFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3645ADF-79D6-46B2-947B-8F6EE13A7254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3645ADF-79D6-46B2-947B-8F6EE13A7254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3645ADF-79D6-46B2-947B-8F6EE13A7254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3645ADF-79D6-46B2-947B-8F6EE13A7254}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F1FCF91D-9F0E-4437-95EA-EFFF45E5AFBD} = {7A5B7D02-7E67-4B12-804D-C3B539BE2859}
+		{F3645ADF-79D6-46B2-947B-8F6EE13A7254} = {7A5B7D02-7E67-4B12-804D-C3B539BE2859}
 	EndGlobalSection
 EndGlobal
